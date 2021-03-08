@@ -84,8 +84,8 @@ export default {
 
 <style lang="scss">
     .questions {
-        background: #f8f9fa;
-        padding: 206px 0 0;
+        background: #FFFFFF;
+        padding: 126px 0 117px;
 
         &-item__answer {
             display: none;
@@ -125,6 +125,7 @@ export default {
 
         &-item__img {
             transition: .4s;
+            cursor: pointer;
         }
 
         &-item__img.isActive {

@@ -10,14 +10,12 @@ new Vue({
 
 
 const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'vertical',
   loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+  slidesPerView: 3,
+  spaceBetween: -40,
+  // pagination: {
+  //   el: '.swiper-pagination',
+  // },
 
   // Navigation arrows
   navigation: {
@@ -25,8 +23,4 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 });

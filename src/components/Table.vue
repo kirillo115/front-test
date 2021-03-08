@@ -122,11 +122,11 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 
     .table {
         background: #f8f9fa;
-        padding: 93px 0 0;
+        padding: 73px 0;
         margin: -2px 0 0;
 
         &-wrap {
@@ -168,17 +168,17 @@ export default {
         &-item__question--descr.isActive {
             display: block;
             position: absolute;
-            right: -123px;
+            right: -170px;
         }
 
         &-item__question-wrap {
             position: relative;
             background: #1E2939;
             border-radius: 4px;
-            padding: 14px 10px;
+            padding: 24px 35px;
             display: flex;
             align-items: center;
-            max-width: 108px;
+            max-width: 120px;
             width: 100%;
             z-index: 2;
         }
