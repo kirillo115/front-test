@@ -155,8 +155,8 @@ export default {
 }
 
 
-.swiper-button-next, .swiper-button-prev {
-    content: '';
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: '' !important;
 }
 
 .swiper-button-prev.arrow-prev {
