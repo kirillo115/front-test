@@ -154,6 +154,11 @@ export default {
     color: #132E57;
 }
 
+
+.swiper-button-next, .swiper-button-prev {
+    content: '';
+}
+
 .swiper-button-prev.arrow-prev {
     left: 21px;
 }
